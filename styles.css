@@ -1,4 +1,34 @@
-.fondo {
-    background-color: green;
-    border-radius: 25px;
+body{
+    background-color: gray;
+}
+
+.contenedor-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card-persona {
+    background-color: rgb(247, 217, 23);
+    margin: 20px;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.texto-persona {
+    display: none;
+}
+
+.texto-margin {
+    margin: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color:gray;
+    border-radius: 15px;
 }
